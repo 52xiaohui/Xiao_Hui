@@ -628,7 +628,7 @@ $.extend({
 		$("#J_pg").remove();
 		$("<iframe></iframe").appendTo("body")
 			.attr("id", "J_pg")
-			.attr("src", "jquery-photo-gallery/gallery.html")
+			.attr("src", "https://cdn.jsdelivr.net/gh/52xiaohui/Xiao_Hui@main/cs/gallery.html")
 			.css({
 				position : "absolute",
 				left : (document.body.clientWidth - winWidth) /2,
